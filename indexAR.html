@@ -365,18 +365,18 @@
 						<h3>بيانات التواصل</h3>
 						<div class="info-detail">
 							<ul><li><i class="fa fa-calendar"></i><span> يومياً :</span> من 9ص إلى 9م  </li></ul>
-							<ul><li><i  class="fa fa-phone"></i><span> التليفون:</span> 012-24843444</li></ul>
+							<ul ><li  ><i  class="fa fa-phone"></i><span> التليفون:</span> 01224843444</li></ul>
 							<ul><li><i class="fa fa-envelope"></i><span> البريد الإلكترونى:</span> info@doc-tour.net</li></ul>
 						</div>
 					</div>
 					<div class="col-md-6 col-md-offset-1 contact-form">
 						<h3>اترك لنا رسالة</h3>
 
-						<form class="form">
-							<input class="name" type="text" placeholder="الإسم">
-							<input class="email" type="email" placeholder="البريد الإلكترونى">
-							<input class="phone" type="text" placeholder="رقم التليفون">
-							<textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="الرسالة"></textarea>
+						<form method="post" action="mailto:info@doc-tour.net" class="form" enctype="text/plain" name=”EmailForm”>
+							<input class="name" name="Name " type="text" placeholder="الإسم">
+							<input class="email" name="Email " type="email" placeholder="البريد الإلكترونى">
+							<input class="phone" name="Phone " type="text" placeholder="رقم التليفون">
+							<textarea class="message" name="message " id="message" cols="30" rows="10" placeholder="الرسالة"></textarea>
 							<input class="submit-btn" type="submit" value="إرسل">
 						</form>
 					</div>
