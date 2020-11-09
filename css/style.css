@@ -146,6 +146,7 @@ li a.active {
     width: 5%;
 }
 .carousel-inner {
+    margin-top: 22px;
     background: -webkit-linear-gradient(left, #000, blue);
     /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(left, #000, blue);
