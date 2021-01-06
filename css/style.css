@@ -13,7 +13,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'BenchNine', sans-serif;
+    font-family: 'SourceSansPro';
 }
 li {
     list-style: none;
@@ -267,7 +267,7 @@ li a.active {
 .about-details p {
     font-size: 13px;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SourceSansPro';
     padding: 0 25px;
     padding-bottom: 30px;
 }
@@ -486,9 +486,9 @@ width: 13rem;
     color: #fff;
 }
 .person-detail p {
-    font-size: 15px;
+    font-size: 13px;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SourceSansPro', sans-serif;
 }
 .single-member:hover .person-detail {
     background: #2a2a2a;
@@ -537,7 +537,7 @@ width: 13rem;
     padding: 0;
 }
 .contact-info ul li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SourceSansPro';
     font-size: 14px;
     color: #fff;
 }
@@ -556,13 +556,13 @@ width: 13rem;
     background: #fff;
     font-size: 13px;
     color: #084a5c;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SourceSansPro';
     padding: 12px;
     border: 0;
     margin-bottom: 12px;
 }
 .contact-form textarea {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SourceSansPro';
     padding: 12px;
     width: 100%;
     height: 140px;
@@ -584,11 +584,15 @@ width: 13rem;
     float: right;
     font-size: 24px;
     color: #fff;
-    background: url(../img/btn-bg.jpg);
     background-repeat: no-repeat;
     padding: 0;
-    font-family: 'BenchNine', sans-serif;
+    font-family: 'SourceSansPro';
     font-weight: bold;
+    background-color: #6d6d6d;
+    border-radius: 10px;
+}
+.contact-form input.submit-btn:hover {
+    background-color: #2a2a2a;
 }
 .contact-form {
     padding-right: 40px;
@@ -625,7 +629,7 @@ width: 13rem;
 .footer p {
     font-size: 12px;
     color: #000;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SourceSansPro';
     font-weight: 300;
     margin: 0;
     padding: 25px 0;
@@ -712,7 +716,7 @@ responsive area
         padding: 14px 12px;
     }
     .carousel-caption h1 {
-        font-size: 120px;
+        font-size: 80px;
     }
     .carousel-caption p {
         font-size: 32px;
